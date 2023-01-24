@@ -61,3 +61,12 @@ buttonNext.addEventListener('click', () =>{
 });
 
 renderPokemon(searchPokemon);
+
+const play = document.querySelector('button')
+play.addEventListener('click', function() {
+    const audio = document.querySelector('audio')
+    audio.play();
+});
+play.addEventListener('dblclick', function() {
+    audio.pause();
+});

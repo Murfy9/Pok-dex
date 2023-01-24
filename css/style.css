@@ -85,11 +85,20 @@ main {
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
     font-size: clamp(8px, 5vw, 1rem);
     font-weight: 600;
-    padding: 4px;
-    width: 50%;
 }
 
-.button:active {
+.button:active, .btn-sound:active{
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
+}
+
+.sound {
+    position: absolute;
+    bottom: 19%;
+    left: 65%;
+}
+
+.btn-prev, .btn-next {
+    padding: 4px;
+    width: 50%;
 }
